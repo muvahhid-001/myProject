@@ -9,7 +9,7 @@ const elementsToShow = [
 ]
 
 const handleScroll = () => {
-  const screenPosition = window.innerHeight / 1.5
+  const screenPosition = window.innerHeight / 1
 
   elementsToShow.forEach(({ selector, className }) => {
     const box = document.querySelector(selector)
