@@ -1,0 +1,76 @@
+.buy {
+  opacity: 0;
+  animation-name: block;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 350px;
+  background-color: rgba(28, 28, 28, 0.99);
+  color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  &__list {
+    padding: 0;
+    margin-top: 0;
+  }
+  &__close {
+    background-color: #1c1a1c;
+    border-radius: 12px;
+    width: 180px;
+    height: 35px;
+    color: rgb(200, 200, 200);
+    font-family: Manrope;
+    font-size: 16px;
+    border: 1.5px solid $clGray;
+    transition: 0.7s;
+    &:hover {
+      background-color: #6f2717;
+      transition: 0.7s;
+      color: white;
+      border-color: rgb(100, 100, 100);
+    }
+  }
+  &__h1 {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(230, 230, 230);
+  }
+  &__img {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+  }
+  &__items,
+  &__a {
+    display: flex;
+    margin: 10px 0px;
+    align-items: center;
+    list-style: none;
+  }
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+.hidden {
+  display: none;
+}
+.non {
+  display: none;
+}

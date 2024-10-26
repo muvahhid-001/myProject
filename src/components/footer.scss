@@ -1,0 +1,27 @@
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+.footer {
+  margin-top: 23px;
+  &__bt {
+    all: unset;
+    cursor: pointer;
+    width: 250px;
+    height: 30px;
+    color: rgb(200, 200, 200);
+    transition: 0.5s;
+    &:hover {
+      color: white;
+    }
+  }
+  &__h1 {
+    color: rgb(200, 200, 200);
+    font-weight: normal;
+    font-size: 18px;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

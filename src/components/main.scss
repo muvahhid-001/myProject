@@ -1,0 +1,69 @@
+.main {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  &__video {
+    margin-left: 600px;
+    margin-top: 135px;
+  }
+  &__h1 {
+    animation-name: main_h1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    position: absolute;
+    font-size: 50px;
+    margin-top: 170px;
+    margin-left: -400px;
+    transform: translateX(-100px);
+    line-height: 60px;
+    font-weight: normal;
+  }
+  &__p {
+    position: absolute;
+    font-size: 20px;
+    color: rgb(80, 80, 80);
+    line-height: 30px;
+  }
+  &__elem1 {
+    z-index: -1;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: -1350px;
+    width: 800px;
+    height: 800px;
+    filter: blur(10px);
+    filter: brightness(70%);
+  }
+  &__elem2 {
+    position: absolute;
+    z-index: -1;
+    margin-left: 1600px;
+    transform: rotate(100deg);
+    width: 800px;
+    height: 800px;
+    filter: blur(10px);
+    filter: brightness(70%);
+  }
+}
+.red {
+  animation-name: anim-h1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+@keyframes anim-h1 {
+  0% {
+    color: white;
+  }
+  50% {
+    color: #6f2717;
+  }
+  100% {
+    color: white;
+  }
+}

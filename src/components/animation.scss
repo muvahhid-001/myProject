@@ -1,0 +1,30 @@
+@keyframes main_h1 {
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes tecnology {
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes menu {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes block {
+  100% {
+    opacity: 1;
+  }
+}
+.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+.visible2 {
+  opacity: 1;
+  transform: translateY(0);
+}

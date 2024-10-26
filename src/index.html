@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link rel="icon" href="img/icon.svg" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>ZEET COMP - Закажи свою мечту</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu">
+        <ul class="menu__list">
+          <img class="menu__logo" src="img/ZEET-COMP.svg" alt="Лого" />
+          <li class="menu__items"><a href="#main">Главная</a></li>
+          <li class="menu__items"><a href="#services">Услуги</a></li>
+          <li class="menu__items"><a href="#contact">Контакты</a></li>
+        </ul>
+        <button class="menu__buy">Оформить</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="overlay non"></div>
+      <div class="buy hidden">
+        <h3 class="buy__h1"
+          >Для оформления заказа, выберите один из удобных вам средств связи с
+          нами:</h3
+        >
+        <ul class="buy__list">
+          <li class="buy__items">
+            <a class="buy__a" href="mailto:zeet-comp@outlook.com"
+              ><img
+                class="buy__img"
+                src="img/mail.png"
+                alt="Почта"
+              />zeet-comp@outlook.com</a
+            ></li
+          >
+          <li class="buy__items"
+            ><a class="buy__a" href="https://wa.me/79881230100"
+              ><img class="buy__img" src="img/whatsapp.png" alt="ВатсАпп" />+7
+              (988) 123-01-00</a
+            ></li
+          >
+          <li class="buy__items"
+            ><a
+              class="buy__a"
+              href="https://www.instagram.com/zeet.comp/"
+              target="_blank"
+              ><img
+                class="buy__img"
+                src="img/instagram.png"
+                alt="Инстаграм"
+              />zeet.comp</a
+            ></li
+          >
+        </ul>
+        <button class="buy__close">Закрыть</button>
+      </div>
+
+      <div class="main" id="main">
+        <div class="main__video">
+          <video autoplay loop muted width="500px" height="500px">
+            <source src="img/video.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <h1 class="main__h1">
+          Создания визиточного сайта <br />
+          под любой вкуc используя<br />
+          <span class="red">современные технологии</span>
+          <p class="main__p">
+            Разработка сайта идет также с использованием<br />
+            технологий разработок для<br />
+            дальнейших изменений клиента.
+          </p>
+        </h1>
+        <img class="main__elem1" src="img/elem1.png" alt="Фото" />
+        <img class="main__elem2" src="img/elem1.png" alt="Фото" />
+      </div>
+      <h1 class="tecnology-h1">Поддержка для разработчиков</h1>
+      <div class="tecnology">
+        <ul class="tecnology__list">
+          <li class="tecnology__items">
+            <img
+              class="tecnology__img-webpack"
+              src="img/webpack.png"
+              alt="webpack"
+            />
+            <p class="tecnology__p">- Технологии для удобства сборки проекта</p>
+          </li>
+          <li class="tecnology__items">
+            <img class="tecnology__img-sass" src="img/sass.png" alt="sass" />
+            <p class="tecnology__p">- Препроцессоры для облегчения CSS</p>
+          </li>
+          <li class="tecnology__items">
+            <img class="tecnology__img-npm" src="img/npm.png" alt="npm" />
+            <p class="tecnology__p"
+              >- А также NPM для управления зависимостями</p
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="none" id="services"></div>
+
+      <div class="services">
+        <div class="services__main">
+          <h1 class="services__h1">Услуги</h1>
+          <h1 class="services__h1-two"
+            >Мы занимаемся версткой сайта на
+            <span class="red2">трёх языках</span>, чтобы обеспечить доступность
+            информации для широкой аудитории. Наша команда уделяет особое
+            внимание <span class="red2">адаптации контента и дизайна</span>,
+            учитывая культурные особенности и предпочтения пользователей. Мы
+            используем
+            <span class="red2">современные технологии и методологии</span>,
+            чтобы сделать процесс разработки максимально
+            <span class="red2">эффективным и качественным.</span></h1
+          >
+          <center
+            ><img class="lang-img" src="img/lang.png" alt="Фото Языков"
+          /></center>
+          <h1 class="services__h1-three"
+            >Кроме того, мы тщательно тестируем сайт на каждом языке, чтобы
+            гарантировать безупречную работу всех функций и удобство навигации.
+            Наша цель — создать многоязычный ресурс, который будет не только
+            информативным, но и приятным для пользователей.</h1
+          >
+          <h1 class="services__h1-four">
+            Мы также уделяем особое внимание локализации контента, чтобы учесть
+            культурные особенности и предпочтения пользователей из разных
+            регионов. Это включает адаптацию не только текста, но и визуальных
+            элементов, чтобы создать максимально комфортную атмосферу для всех
+            посетителей.</h1
+          >
+          <img class="services__elem3" src="img/elem2.png" alt="Фото" />
+          <img class="services__elem4" src="img/elem2.png" alt="Фото" />
+        </div>
+      </div>
+      <div class="none" id="contact"></div>
+      <div class="contact">
+        <h1 class="contact__h1">Наши контакты</h1>
+        <h1 class="contact__h1-two"
+          >Если у вас есть вопросы или вы хотите связаться с нами,<br />
+          вы можете использовать следующие способы:</h1
+        >
+        <h1 class="contact__h1-strong"
+          >Мы надеемся на лучшее общение с вами, <br />Мы ценим ваше мнение и
+          стремимся создать <br />открытую атмосферу для диалога. <br />Вместе
+          мы можем достичь многого и <br />создать позитивное
+          взаимодействие.</h1
+        >
+        <div class="contact__info">
+          <h1 class="contact__h1-three">Контактная информация</h1>
+          <ul class="contact__list">
+            <li class="contact__items"
+              >Телефон: <a href="tel:+79881230100">+7 (988) 123-01-00</a></li
+            >
+            <li class="contact__items"
+              >Электронная почта:
+              <a href="mailto:zeet-comp@outlook.com"
+                >zeet-comp@outlook.com</a
+              ></li
+            >
+            <li class="contact__items">WhatsApp: +7 (988) 123-01-00</li>
+            <li class="contact__items">Instagram: zeet.comp</li>
+          </ul>
+          <img class="contact__elem5" src="img/elem2.png" alt="Фото" />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <button class="footer__bt"
+          ><a href="./security.html">Политика конфиденциальности</a></button
+        >
+        <h1 class="footer__h1">© 2024. Все права защищены</h1>
+      </div>
+    </footer>
+  </body>
+</html>

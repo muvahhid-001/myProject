@@ -1,0 +1,53 @@
+.menu {
+  animation: menu;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 90px;
+  background-color: rgba(28, 28, 28, 0.99);
+  border-bottom: 1px solid rgb(80, 80, 80);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__logo {
+    width: 200px;
+    height: 25px;
+    margin-right: 400px;
+  }
+  &__list {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-right: 40px;
+    color: rgb(200, 200, 200);
+  }
+  &__items {
+    transition: 0.25s;
+    &:hover {
+      transition: 0.25s;
+      cursor: pointer;
+      color: white;
+    }
+  }
+  &__buy {
+    background-color: #1c1a1c;
+    border-radius: 12px;
+    width: 180px;
+    height: 35px;
+    color: rgb(200, 200, 200);
+    font-family: Manrope;
+    font-size: 16px;
+    border: 1.5px solid $clGray;
+    transition: 0.7s;
+    &:hover {
+      background-color: #6f2717;
+      transition: 0.7s;
+      color: white;
+      border-color: rgb(100, 100, 100);
+    }
+  }
+}
