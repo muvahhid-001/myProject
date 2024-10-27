@@ -85,6 +85,12 @@
     height: 300px;
   }
   .main {
+    &__elem1 {
+      margin-left: -1000px;
+    }
+    &__elem2 {
+      margin-left: 1000px;
+    }
     &__video {
       margin-left: 300px;
     }
@@ -185,6 +191,9 @@
     margin-left: -100px;
   }
   .main {
+    &__elem1 {
+      margin-left: -800px;
+    }
     &__video {
       margin-left: 250px;
     }
@@ -212,6 +221,12 @@
     }
   }
   .services {
+    &__elem4 {
+      left: 330px;
+    }
+    &__elem3 {
+      right: 300px;
+    }
     &__h1-two {
       width: 370px;
       font-size: 16px;
@@ -224,5 +239,86 @@
   .footer {
     text-align: center;
     flex-direction: column;
+  }
+}
+@media (max-width: 520px) {
+  .services {
+    &__elem4 {
+      left: 180px;
+    }
+    &__elem3 {
+      right: 100px;
+    }
+    &__h1-two {
+      width: 360px;
+    }
+    &__h1-three {
+      width: 370px;
+    }
+  }
+  video {
+    width: 200px;
+    height: 200px;
+  }
+  .menu {
+    &__buy {
+      display: none;
+    }
+    &__list {
+      margin: 0;
+      padding: 0;
+    }
+    &__logo {
+      margin-right: 0;
+    }
+  }
+  h1.main__h1 {
+    margin-left: -60px;
+    font-size: 19px;
+    margin-top: 150px;
+    line-height: 26px;
+  }
+  .tecnology {
+    &__items {
+      width: 300px;
+      height: 190px;
+    }
+    &__img-webpack {
+      margin-left: 40px !important;
+    }
+    &__img-sass {
+      margin-left: 80px !important;
+    }
+    &__img-npm {
+      margin-left: 70px !important;
+    }
+  }
+  .contact {
+    &__h1-three {
+      font-size: 22px;
+    }
+    &__list {
+      font-size: 15px;
+      padding: 0;
+      margin-left: 50px;
+    }
+    &__h1-strong {
+      margin-left: 10px;
+      font-size: 15px;
+    }
+  }
+  .tecnology-h1 {
+    font-size: 15px;
+  }
+  .main {
+    &__elem1 {
+      margin-left: -600px;
+    }
+    &__p {
+      font-size: 17px;
+    }
+    &__video {
+      margin-left: 20%;
+    }
   }
 }

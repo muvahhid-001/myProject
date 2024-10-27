@@ -19,9 +19,6 @@ body {
   background-color: rgb(27, 27, 27);
   color: $text;
 }
-.menuMobile {
-  display: none;
-}
 @import '../components/header.scss';
 @import '../components/main.scss';
 @import '../components/tecnology.scss';
@@ -31,3 +28,4 @@ body {
 @import '../components/animation.scss';
 @import '../components/buy.scss';
 @import '../components/adaptive.scss';
+@import '../components/mobileMenu.scss';
