@@ -12,12 +12,16 @@ $clGray: #323232;
   font-weight: normal;
 }
 body {
-  overflow-x: hidden;
+  position: relative;
   padding: 0;
   margin: 0;
   font-family: Manrope;
   background-color: rgb(27, 27, 27);
   color: $text;
+}
+html,
+body {
+  overflow-x: hidden !important;
 }
 @import '../components/header.scss';
 @import '../components/main.scss';
