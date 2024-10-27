@@ -5,8 +5,10 @@
   border-bottom: 1px solid rgb(100, 100, 100);
   &__main {
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   &__h1 {
     color: rgb(200, 200, 200);
@@ -16,49 +18,50 @@
   }
   &__h1-three {
     opacity: 0;
+    margin-left: 20px;
+    margin-right: 20px;
     transform: translateY(50px);
     transition: opacity 0.5s ease, transform 0.5s ease;
     width: 100%;
     color: rgb(200, 200, 200);
     margin-top: 50px;
-    margin-left: auto;
     font-weight: normal;
     font-size: 24px;
-    margin-right: auto;
     text-align: center;
   }
   &__h1-two {
+    margin-left: 20px;
+    margin-right: 20px;
     opacity: 0;
     transform: translateX(-50px);
     transition: opacity 0.5s ease, transform 0.5s ease;
-    padding: 15px;
-    width: 720px;
+    width: 100%;
+    max-width: 1000px;
     border-radius: 10px;
     color: rgb(200, 200, 200);
     margin-top: 100px;
     font-weight: normal;
     font-size: 24px;
-    margin-left: 50px;
-    margin-right: auto;
+    text-align: center;
   }
   &__h1-four {
+    margin-left: 20px;
+    margin-right: 20px;
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 0.5s ease, transform 0.5s ease;
     width: 750px;
     color: rgb(200, 200, 200);
     margin-top: 30px;
-    margin-left: auto;
     font-weight: normal;
     font-size: 18px;
-    margin-right: auto;
     text-align: center;
   }
   &__elem3 {
     z-index: -1;
     position: absolute;
-    margin-top: -400px;
-    margin-left: -500px;
+    right: 65%;
+    top: 1500px;
     width: 800px;
     height: 800px;
     filter: blur(10px);
@@ -68,7 +71,7 @@
     position: absolute;
     z-index: -1;
     top: 1200px;
-    margin-left: 1000px;
+    left: 65%;
     transform: rotate(100deg);
     width: 800px;
     height: 800px;
