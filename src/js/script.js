@@ -46,3 +46,10 @@ buttonTwo.addEventListener('click', function () {
   buy.classList.add('hidden')
   overlay.classList.add('non')
 })
+
+document
+  .querySelector('.menu__mobileBT')
+  .addEventListener('click', function () {
+    const menu = document.querySelector('.menuMobile')
+    menu.classList.toggle('visible')
+  })

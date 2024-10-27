@@ -8,13 +8,16 @@ footer {
   &__bt {
     all: unset;
     cursor: pointer;
-    width: 250px;
+    width: 278px;
     height: 30px;
     color: rgb(200, 200, 200);
     transition: 0.5s;
     &:hover {
       color: white;
     }
+  }
+  &__a {
+    font-size: 18px;
   }
   &__h1 {
     color: rgb(200, 200, 200);

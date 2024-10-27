@@ -18,6 +18,9 @@
     height: 25px;
     margin-right: 400px;
   }
+  &__mobileBT {
+    display: none;
+  }
   &__list {
     display: flex;
     list-style: none;

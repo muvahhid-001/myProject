@@ -15,6 +15,14 @@
     <header>
       <div class="menu">
         <ul class="menu__list">
+          <button class="menu__mobileBT"
+            ><img
+              class="menu__imgBT"
+              src="img/menu.svg"
+              alt="Меню"
+              width="40px"
+              height="40px"
+          /></button>
           <img class="menu__logo" src="img/ZEET-COMP.svg" alt="Лого" />
           <li class="menu__items"><a href="#main">Главная</a></li>
           <li class="menu__items"><a href="#services">Услуги</a></li>
@@ -23,6 +31,13 @@
         <button class="menu__buy">Оформить</button>
       </div>
     </header>
+    <div class="menuMobile">
+      <ul class="menuMobile__list">
+        <li class="menuMobile__items"><a href="#main">Главная</a></li>
+        <li class="menuMobile__items"><a href="#services">Услуги</a></li>
+        <li class="menuMobile__items"><a href="#contact">Контакты</a></li>
+      </ul>
+    </div>
     <main>
       <div class="overlay non"></div>
       <div class="buy hidden">
@@ -154,14 +169,13 @@
           >Если у вас есть вопросы или вы хотите связаться с нами,<br />
           вы можете использовать следующие способы:</h1
         >
-        <h1 class="contact__h1-strong"
-          >Мы надеемся на лучшее общение с вами, <br />Мы ценим ваше мнение и
-          стремимся создать <br />открытую атмосферу для диалога. <br />Вместе
-          мы можем достичь многого и <br />создать позитивное
-          взаимодействие.</h1
-        >
+        <h1 class="contact__h1-three">Контактная информация</h1>
         <div class="contact__info">
-          <h1 class="contact__h1-three">Контактная информация</h1>
+          <h1 class="contact__h1-strong"
+            >Мы ценим ваше мнение и стремимся создать <br />открытую атмосферу
+            для диалога. <br />Вместе мы можем достичь многого и <br />создать
+            позитивное взаимодействие.</h1
+          >
           <ul class="contact__list">
             <li class="contact__items"
               >Телефон: <a href="tel:+79881230100">+7 (988) 123-01-00</a></li
@@ -182,7 +196,9 @@
     <footer>
       <div class="footer">
         <button class="footer__bt"
-          ><a href="./security.html">Политика конфиденциальности</a></button
+          ><a class="footer__a" href="./security.html" ;
+            >Политика конфиденциальности</a
+          ></button
         >
         <h1 class="footer__h1">© 2024. Все права защищены</h1>
       </div>

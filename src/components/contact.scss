@@ -14,25 +14,26 @@
     line-height: 30px;
   }
   &__info {
-    margin-left: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 50px;
   }
   &__h1-strong {
+    margin-left: 50px;
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 0.5s ease, transform 0.5s ease;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
-    margin-right: 400px;
     color: rgb(200, 200, 200);
-    position: absolute;
-    top: 2600px;
   }
   &__elem5 {
     z-index: -1;
     transform: rotate(180deg);
     position: absolute;
     top: 2250px;
+    left: 1200px;
     width: 800px;
     height: 800px;
     filter: blur(10px);
@@ -40,6 +41,7 @@
   }
   &__list {
     opacity: 0;
+    margin-left: 100px;
     transform: translateY(50px);
     transition: opacity 0.5s ease, transform 0.5s ease;
   }
