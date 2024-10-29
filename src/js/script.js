@@ -71,3 +71,11 @@ const menuMobileBT = document.querySelectorAll('.menuMobile__BT')
 menuMobileBT.forEach((button) => {
   button.addEventListener('click', toggleMenu)
 })
+
+const video = document.getElementById('myVideo')
+
+video.addEventListener('fullscreenchange', () => {
+  if (document.fullscreenElement) {
+    document.exitFullscreen()
+  }
+})

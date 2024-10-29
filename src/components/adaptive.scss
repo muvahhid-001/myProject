@@ -257,40 +257,55 @@
     }
   }
   video {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
   }
   .menu {
     &__buy {
       display: none;
     }
     &__list {
-      margin: 0;
+      width: 100%;
+      justify-content: space-between;
       padding: 0;
+      margin: 0;
+      margin-left: 20px;
+      margin-right: 20px;
     }
     &__logo {
       margin-right: 0;
     }
   }
   h1.main__h1 {
-    margin-left: -60px;
-    font-size: 19px;
+    position: absolute;
+    left: 0;
+    font-size: 22px;
+    margin-left: 10%;
     margin-top: 150px;
-    line-height: 26px;
+    line-height: 30px;
   }
   .tecnology {
     &__items {
-      width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      max-width: 400px;
       height: 190px;
+      margin-left: 20px;
+      margin-right: 20px;
     }
     &__img-webpack {
-      margin-left: 40px !important;
+      margin-top: -20px !important;
     }
     &__img-sass {
-      margin-left: 80px !important;
+      margin: 0 !important;
+      margin-bottom: 20px !important;
     }
     &__img-npm {
-      margin-left: 70px !important;
+      margin: 0 !important;
+      margin-bottom: 20px !important;
     }
   }
   .contact {
